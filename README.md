@@ -1,0 +1,2 @@
+# Plokmin
+Plokmin SSBM Blog
