@@ -85,6 +85,6 @@ You will never learn everything, sometimes defining what you don't know is more 
   Understanding basics of how a website like github works will allow you to explore open source projects' code, even if you don't know how to program
   * EXAMPLE: [Pokemon Showdown](https://play.pokemonshowdown.com/)
   * [Pokemon Showdown Github Repository](https://github.com/smogon/pokemon-showdown)
-  [Make your own website with GitHub Pages](https://lab.github.com/githubtraining/github-pages)
+  * [Make your own website with GitHub Pages](https://lab.github.com/githubtraining/github-pages)
   * [Format a webpage with Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
   * [CLICK HERE TO VIEW THE SOURCE CODE FOR THIS PAGE](https://github.com/mikhaidn/Plokmin/blob/main/IntroToEngineering.md)
