@@ -54,7 +54,7 @@ If you get carried away, you'll start to be surprised at how much faster you can
   He teaches through pain, so you don't have to
 
 #### Ben Eater (Computer Engineering)
-Computer engineering requires many more prerequisites than the other fields on here. Notably some understanding of `binary arithmatic`, `circuts`, and what `machine code` represents will help when watching Ben Eater.
+Computer engineering requires a few more prerequisites than the other topics on here. Notably some understanding of `binary arithmatic`, `circuts`, and what `machine code` represents will help when watching Ben Eater.
 
 [Building an 8-bit breadboard computer (Playlist)](https://www.youtube.com/watch?v=HyznrdDSSGM)
 
