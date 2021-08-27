@@ -39,8 +39,8 @@ Steve Mould:[This Drill Powered Spool Proves Me Right](https://www.youtube.com/w
 Veritasium [Can a Wind-Powered Car Go Faster Than The Wind?](https://www.youtube.com/watch?v=jyQwgBAaBag)
 
 #### Math
-3Blue1Brown: [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM)
-   * This is part one of the EoC series, I highly recommend all of his "Essence of" videos - he's more focused on "visualizing" math more than precise details.
+3Blue1Brown: [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) (NO MATH PREREQUISITE NEEDED)
+
 3Blue1Brown(again): [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
 Numberphile: [Mathematics is all about SHORTCUTS](https://www.youtube.com/watch?v=BdEWCxt8C0M)
