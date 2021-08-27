@@ -27,31 +27,30 @@ I cannot recommend this enough, this is a high level crash course that will help
 Here's a non comprehensive list of some of the STEM people I actively follow, the more curious you get, the easier it is to learn about what majors are right for you!
 
 #### STEM Communication 
-Steve Mould:
-* [This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
-Veritasium:
-* [Can a Wind-Powered Car Go Faster Than The Wind?](https://www.youtube.com/watch?v=jyQwgBAaBag)
+Steve Mould:[This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
+  
+Veritasium [Can a Wind-Powered Car Go Faster Than The Wind?](https://www.youtube.com/watch?v=jyQwgBAaBag)
 
 #### Math
-##### 3Blue1Brown
-* [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM)
-  * This is part one of the EoC series, I highly recommend all of his "Essence of" videos
-* [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+3Blue1Brown: [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM)
+   * This is part one of the EoC series, I highly recommend all of his "Essence of" videos - he's more focused on "visualizing" math more than precise details.
+3Blue1Brown(again): [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
-Numberphile: 
-* [Mathematics is all about SHORTCUTS](https://www.youtube.com/watch?v=BdEWCxt8C0M)
+Numberphile: [Mathematics is all about SHORTCUTS](https://www.youtube.com/watch?v=BdEWCxt8C0M)
 
-Standup Maths - [Why is there no equation for the perimeter of an ellipse?](https://www.youtube.com/watch?v=5nW3nJhBHL0) 
+Standup Maths: [Why is there no equation for the perimeter of an ellipse?](https://www.youtube.com/watch?v=5nW3nJhBHL0) 
 
 #### Robotics/Mechanical:
-Stuff Made Here:
-* [Moving hoop won't let you miss](https://www.youtube.com/watch?v=myO8fxhDRW0)
+Stuff Made Here: [Moving hoop won't let you miss](https://www.youtube.com/watch?v=myO8fxhDRW0)
 
-Michael Reeves:
-* [I Built a Surgery Robot](https://www.youtube.com/watch?v=A_BlNA7bBxo)
+Michael Reeves: [I Built a Surgery Robot](https://www.youtube.com/watch?v=A_BlNA7bBxo)
+
+Mark Rober: [World's Longest Field Goal-Robot vs NFL Kicker](https://www.youtube.com/watch?v=P_6my53IlxY)
+
 #### Electrical Engineering
 ElectroBOOM:
 * [The Pain of Electricity (AC versus DC)](https://www.youtube.com/watch?v=hp97GjuULX8)
+  * He teaches through pain, so you don't have to
 #### Computer Engineering
 Computer engineering requires many more prerequisites than the other fields on here. Notably some understanding of `binary arithmatic` and `circuts` will help when watching Ben Eater.
 
@@ -77,3 +76,4 @@ You will never learn everything, sometimes defining what you don't know is more 
   * [Pokemon Showdown Github Repository](https://github.com/smogon/pokemon-showdown)
   [Make your own website with GitHub Pages](https://lab.github.com/githubtraining/github-pages)
   * [Format a webpage with Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
+  * []
