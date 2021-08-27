@@ -73,7 +73,7 @@ Computer engineering requires a few more prerequisites than the other topics on 
 
 
 ## Disclaimer - FIND YOUR OWN SOURCES
-Most of my knowledge comes from when I applied 8 years ago, skim many resources and see what advice seems to pop up multiple times.
+Most of my knowledge comes from when I applied 8 years ago, skim many resources and see what advice continues to reoccur.
 
 Learn to trust your reasoning over any individual source.
 
