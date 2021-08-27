@@ -4,23 +4,27 @@ This is an organized list for resources I've found useful over the years
 ## Suggested Content
 #### SAT Prep (Khan Academy)
 [Link](https://www.khanacademy.org/mission/sat/)
+
 After giving it another look, I believe this will be the best starting place for understanding/practicing the SAT test.
 #### College Admissions (Khan Academy)
 [Link](https://www.khanacademy.org/college-careers-more/college-admissions)
+
 Ignore everything I said, check this out for more information about college admissions.
 #### Intro to Electrical Engineering (Khan Academy)
 [Link](https://www.khanacademy.org/science/electrical-engineering)
 #### Calculus (Khan Academy)
    [AP Calculus AB](https://www.khanacademy.org/math/ap-calculus-ab), [AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc), and [Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus) cover the same material as what's taught in Calculus I-III.
-#### Intro to Engineering and Design (EdX)
+#### Intro to Engineering and Design (EdX - Georgia Tech)
 [Link](https://www.edx.org/course/introduction-to-engineering-and-design)
 
-I cannot recommend this enough, this is a high level crash course that will help you understand what engineers have in common, and what separates the disciplines apart.
+I cannot recommend this enough, this is a high level crash course that will help you understand what engineers have in common, and what separates the disciplines apart. Taught by
 #### Mit OpenCourseware
 [Link](https://ocw.mit.edu/index.htm)
    I originally suggested this website because when I was in high school, it set the standard for free-access college courses. It's on the bottom of this list, not because it has gone downhill, but because the rest of the competition has made the first-year college content much more accessible.
 
 ## Favorite STEM Content Creators
+
+Here's a non comprehensive list of some of the STEM people I actively follow, the more curious you get, the easier it is to learn about what majors are right for you!
 
 #### STEM Communication 
 Steve Mould:
