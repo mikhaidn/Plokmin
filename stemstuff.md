@@ -13,28 +13,25 @@ The "long story short" of "Engineering" as a discipline, as well as practical ex
 
 After giving it another look, I believe this will be the best starting place for understanding/practicing the SAT test.
 
-#### College Admissions (Khan Academy)
-[Link](https://www.khanacademy.org/college-careers-more/college-admissions)
+#### College Admissions (Khan Academy)[Link](https://www.khanacademy.org/college-careers-more/college-admissions)
 
 Ignore everything I said, check this out for more information about college admissions. I can help answer more questions once you've taught yourself the basics
 
-#### Intro to Electrical Engineering (Khan Academy)
-[Link](https://www.khanacademy.org/science/electrical-engineering)
+#### Intro to Electrical Engineering (Khan Academy) [Link](https://www.khanacademy.org/science/electrical-engineering)
 
 Not much to add, this is practically the same content as most Intro to Electronics courses that any engineer would have to take. Definitely worth the skim!
 
-#### Calculus (Khan Academy)
-   [AP Calculus AB](https://www.khanacademy.org/math/ap-calculus-ab), [AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc), and [Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus) cover the same material as what's taught in Calculus I-III.
+#### Calculus (Khan Academy) [AP Calculus AB](https://www.khanacademy.org/math/ap-calculus-ab) | [AP Calculus BC](https://www.khanacademy.org/math/ap-calculus-bc) | [Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
+These courses cover the same material as what's often referred to as "Calculus I-III". Assuming you eventually will learn it, there's no harm in taking a peek at what makes `derivatives`and  `integrals` so gosh darn useful
 
-   Who said you could only learn as fast as the school you're in? Sometimes learning the same content in different environments helps it stick
-
-#### Mit OpenCourseware
-[Link](https://ocw.mit.edu/index.htm)
+#### Mit OpenCourseware [Link](https://ocw.mit.edu/index.htm)
    I originally suggested this website because when I was in high school, it set the standard for free-access college courses. It's on the bottom of this list, not because it has gone downhill, but because the rest of the competition has made the first-year college content much more accessible.
 
 ## Favorite STEM Content Creators
 
 Here's a non comprehensive list of some of the STEM people I actively follow, the more curious you get, the easier it is to learn about what majors are right for you!
+
+If you get carried away, you'll start to be surprised at how much faster you can teach yourself than what school can do.
 
 #### STEM Communication 
 Steve Mould:[This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
