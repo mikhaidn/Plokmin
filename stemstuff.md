@@ -27,31 +27,40 @@ These courses cover the same material as what's often referred to as "Calculus I
 
 ## Favorite STEM Content Creators
 
-Here's a non comprehensive list of some of the STEM people I actively follow, the more curious you get, the easier it is to learn about what majors are right for you!
+Here's a non comprehensive list of some videos made by STEM people I actively follow, the more curious you get, the easier it is to learn about what majors are right for you! Check them out on your own time
 
 If you get carried away, you'll start to be surprised at how much faster you can teach yourself than what school can do.
 
- 
-#### Steve Mould (Miscellaneous STEM) - [This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
   
 #### Veritasium (Miscellaneous STEM) - [Can a Wind-Powered Car Go Faster Than The Wind?](https://www.youtube.com/watch?v=jyQwgBAaBag)
+Well, can it?
 
 #### 3Blue1Brown (Math) - [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) (NO MATH PREREQUISITE NEEDED)
+This playlist places more emphasis on visualization and intuition, no need to know much math to comprehend it
 
 #### 3Blue1Brown (again) - [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+The best bitcoin TL;DR available
 
 #### Numberphile (Math) - [Mathematics is all about SHORTCUTS](https://www.youtube.com/watch?v=BdEWCxt8C0M)
+The interviewer goes to different professors and they chat about a wide variety of "for fun" math concepts
 
 #### Standup Maths (Math) - [Why is there no equation for the perimeter of an ellipse?](https://www.youtube.com/watch?v=5nW3nJhBHL0) 
+Corny humor warning
 
 #### Stuff Made Here (Robotics/Mechanical) - [Moving hoop won't let you miss](https://www.youtube.com/watch?v=myO8fxhDRW0)
+Genuinely the most impressive one-man-show on YouTube from a mechanical standpoint
 
 #### Michael Reeves (Robotics/Mechanical) - [I Built a Surgery Robot](https://www.youtube.com/watch?v=A_BlNA7bBxo)
+Self taught, going to destroy the world with pure chaos
 
 #### Mark Rober (Robotics/Mechanical) : [World's Longest Field Goal-Robot vs NFL Kicker](https://www.youtube.com/watch?v=P_6my53IlxY)
+Ex NASA Engineer
 
 #### ElectroBOOM (Electrical Engineering) - [The Pain of Electricity (AC versus DC)](https://www.youtube.com/watch?v=hp97GjuULX8)
   He teaches through pain, so you don't have to
+
+#### Steve Mould (Miscellaneous STEM) - [This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
+No frills, just interesting concepts and well presented. This video is part of a 10,000 Canadian cent challenge with ElectroBOOM
 
 #### Ben Eater (Computer Engineering)
 Computer engineering requires a few more prerequisites than the other topics on here. Notably some understanding of `binary arithmatic`, `circuts`, and what `machine code` represents will help when watching Ben Eater.
