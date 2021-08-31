@@ -62,6 +62,13 @@ Ex NASA Engineer
 #### Steve Mould (Miscellaneous STEM) - [This Drill Powered Spool Proves Me Right](https://www.youtube.com/watch?v=bcsb1xAv7XA)
 No frills, just interesting concepts and well presented. This video is part of a 10,000 Canadian cent challenge with ElectroBOOM
 
+#### Seth Bling (Computer Science/ Computer Engineering/ Minecraft)
+CalTech Alumn, Minecraft modder and redstone guru
+
+[Playable Minecraft in a Chest](https://www.youtube.com/watch?v=-j2wupurm4s)
+
+[Redstone Lessons with a Mojangster](https://www.youtube.com/watch?v=DzSpuMDtyUU&list=PL2Qvl4gaBge1kABr3aBCrMSb94HFLIjbn)
+
 #### Ben Eater (Computer Engineering)
 Computer engineering requires a few more prerequisites than the other topics on here. Notably some understanding of `binary arithmatic`, `circuts`, and what `machine code` represents will help when watching Ben Eater.
 
