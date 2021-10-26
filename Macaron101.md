@@ -11,24 +11,27 @@ Here is an incomplete list of variables that affect the outcome
 * How long did you leave them in for? 10 minutes then rotate? 15 minutes?
 
 ## Fundamental Theorem of Macarons
-* Nobody, and I mean *nobody* has a foolproof macaron recipe for a brand new kitchen.
+> Nobody, and I mean *nobody* has a foolproof macaron recipe for a brand new kitchen.
 
 Let go of the idea that you need "picture perfect" macarons, and then you "unlock" the ability to make something tasty and artisanal every time! 
 
 ### Key Terms:
 
 **Meringue**
-* An egg white and air emulsion. This forms the fluffy structure of a macaron. Understand the difference between a stiff peak and a soft peak. Make sure you don't over beat!
+
+ An egg white and air emulsion. This forms the fluffy structure of a macaron. Understand the difference between a stiff peak and a soft peak. Make sure you don't over beat!
   
 **Macronage**
-*It's what makes a macaron, a macaron!*
+
+> *It's what makes a macaron, a macaron!*
+
 The process of folding the dry ingredients into the meringue. Look up a video on this, you'll understand it much better that way. (Hint watch the one below).
 
 ## Mandatory Watching
-* [The SHOCKING SECRET to French macarons](https://www.youtube.com/watch?v=tsCvAijBn4Y)
-  * *The Industrial revolution was 200 years ago! If I want factory perfection, I WILL BUY IT FROM A FACTORY* - Adam Ragusea
-### Extra Credit - History of the name Macaron/Macaroon
-* [Why French macarons and coconut macaroons have the same name](https://www.youtube.com/watch?v=nzcHeO43kgE)
+[The SHOCKING SECRET to French macarons](https://www.youtube.com/watch?v=tsCvAijBn4Y)
+  > *The Industrial revolution was 200 years ago! If I want factory perfection, I WILL BUY IT FROM A FACTORY* - Adam Ragusea 
+  
+* [Why French macarons and coconut macaroons have the same name](https://www.youtube.com/watch?v=nzcHeO43kgE)(Extra Credit)
 
 ### Recomended Base Recipes
 * https://tasty.co/recipe/macarons
@@ -36,12 +39,9 @@ The process of folding the dry ingredients into the meringue. Look up a video on
 
 ### Equipment Must-Haves
 * Oven (Duh)
-* Electric Mixer
-  * Stand Mixers are nice, but not needed
-* Parchment Paper or Silicone Mat
-  * The batter/cookies will stick to anything else
-* Wide large bowl
-  * Preferably metal or glass, as fats/oils linger on plastic, which can destabilize the meringue
+* Electric Mixer (Stand Mixers are nice, but not needed)
+* Parchment Paper or Silicone Mat (The batter/cookies will stick to anything else)
+* Wide large bowl (Preferably metal or glass, as fats/oils linger on plastic, which can destabilize the meringue)
 * Rubber Spatula
   * For the Macronage
 
