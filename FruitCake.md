@@ -1,5 +1,5 @@
-#Fruit Cake Recipe
-#Ingredients
+# Fruit Cake Recipe
+# Ingredients
 * 1c butter
 * 1c brown sugar
 * 3 eggs
@@ -18,7 +18,8 @@
 * 3/4 tbsp cinnamon
 * 1/4 tbsp ground clove
 * 1/8 tbsp ground nutmeg
-#Instructions
+
+# Instructions
 1) The night before you bake, soak the fruits in a bowl containing the alcohol and the lemon and orange juices.
 2) The next day, mix everything into one bowl
 3) Preheat the oven at 325°F and prepare the cake pan 
