@@ -26,5 +26,5 @@
 4. Bake at 325°F for one hour
 5. Reduce to 275°F-300°F for 80-90 minutes
 6. About twice a week for a few weeks (at least three weeks), drizzle half a cup of alcohol onto the cake.
-   - You can dilute the alcohol with sugar and water to make the cake more kid-friendly
+     - You can dilute the alcohol with sugar and water to make the cake more kid-friendly
    
