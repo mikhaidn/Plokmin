@@ -39,5 +39,15 @@ If you're the only one working on a repo the only things you need to worry about
 * Git branching
 
 ### Advanced
-    * Bash - if/ else/ case/ interactive scripts
-    * sed/awk/ regex/ data filters
+* Bash - if/ else/ case/ interactive scripts
+* sed/awk/ regex/ data filters
+
+## Quick Reference
+   
+`cp` - copy file/directory to another location
+`ls` - list all files in directory
+`cd` - "change directory" use for folder navigation, i.e. cd ~ go to "home directory"
+`mv` - move file/directory from one place to another location (it's what you'd use for renaming a file too, can you think about why?)
+`vim` - open the vim editor/ make a new file
+`cat` - print out a file, line by line
+`sudo <any other command>` - "super user do" think of it as the "Run as Administrator" option in Windows
