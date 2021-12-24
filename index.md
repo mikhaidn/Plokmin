@@ -3,7 +3,9 @@ By: Daniel "Plokmin" Mikhail *(he/him)*
 
 [Pre-College STEM](stemstuff.html) - An aggregation of STEM resources that a high-schooler may find useful. 
 
-[Macarons](Macaron101.html) - A high level guide to making your own Macarons
+[Intro to Macarons](Macaron101.html) - A high level guide to making your own Macarons
+
+[Intro to the Unix Shell](LinuxTerminalBeginner.html) - A high level checklist to teaching yourself the shell
 
 [Fruit Cake](FruitCake.html) - My grandma's fruit cake recipe!
 
