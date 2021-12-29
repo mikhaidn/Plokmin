@@ -1,5 +1,6 @@
 ## Welcome to my page of miscellaneous writing!
 By: Daniel "Plokmin" Mikhail *(he/him)* 
+Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html)
 
 [Pre-College STEM](stemstuff.html) - An aggregation of STEM resources that a high-schooler may find useful. 
 
@@ -14,8 +15,6 @@ By: Daniel "Plokmin" Mikhail *(he/him)*
   0. [Raw data of semiprime research](https://raw.githubusercontent.com/mikhaidn/SemiprimeCalculations/main/Summary%20of%202%5E28%20results)
   1. [Every integer (greater than two) seems to be a squared distance away from a semiprime](https://oeis.org/A241922)
   2. [(seemingly fininte) List of numbers that are not the sum of a square and a semiprime](https://oeis.org/A100570)
-
-[Resume](DanMikhailResume.html)
 
 https://mikhaidn.github.io/Plokmin/
 
