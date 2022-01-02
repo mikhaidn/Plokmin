@@ -1,6 +1,6 @@
 window.onSpotifyWebPlaybackSDKReady = () => {
   // You can now initialize Spotify.Player and use the SDK
-  const token = 'BQBmcCYmSmFxMKX7rpyCeeMNEVQo9ephKW2HXqAi4OUT7Xo7fKSwb83oIFJ2Ost9KYx2cKUB40SvdesjxX7SKPrfpwhdYG2CqR1y_35d84RvuZ09-C_KhvDuUXSpXRcmh5WQjvDmdxsfuKVQ67GFmCTL-NrFTLEKKY0';
+  const token = 'BQCgp5SJJXabt1sWdPPFXyIOfl-liKLLDEVv8hXX9cLHLDSByXtLYyv6cgBRGozLmiEEuG7oNtbeRG1dmKKnkCf5Z09h7B_k5uFv5Vq8BacTfUUqxC_j44pq9x1qH48iEqotB2jLcgVonA1eWWecoqIpVT-2AxUERiA-C_KhvDuUXSpXRcmh5WQjvDmdxsfuKVQ67GFmCTL-NrFTLEKKY0';
   const player = new Spotify.Player({
     name: 'Virtual Speaker',
     getOAuthToken: cb => { cb(token); },
