@@ -1,7 +1,7 @@
 ## Welcome to my page of miscellaneous writing!
 By: Daniel "Plokmin" Mikhail *(he/him)* 
 
-Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html)
+Resume: [PDF](DanMikhailResume.pdf)
 
 [Pre-College STEM](stemstuff.html) - An aggregation of STEM resources that a high-schooler may find useful. 
 
