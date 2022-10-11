@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "🔍Decompiler!",
+			"uri": "decompileFs:/"
+		},
+		{
+			"path": "..\\..\\..\\Dataset_Phase_I"
+		}
+	],
+	"settings": {
+		"vscode-decompiler.tool.ghidra.path": "C:\\ProgramData\\chocolatey\\lib\\ghidra\\tools\\ghidra_10.1.1_PUBLIC\\support\\analyzeHeadless.bat"
+	}
+}
