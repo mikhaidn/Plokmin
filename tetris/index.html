@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="main-menu" class="menu">
+            <h1>Tetris</h1>
+            <button id="start-game">Start Game</button>
+            <button id="open-settings">Settings</button>
+        </div>
+        <div id="pause-menu" class="menu hidden">
+            <h2>Paused</h2>
+            <button id="resume-game">Resume</button>
+            <button id="quit-game">Quit to Main Menu</button>
+        </div>
+        <div id="settings-menu" class="menu hidden">
+            <h2>Settings</h2>
+            <label for="rows">Rows: <span id="rows-value"></span></label>
+            <input type="range" id="rows" min="10" max="30" step="1">
+            <label for="columns">Columns: <span id="columns-value"></span></label>
+            <input type="range" id="columns" min="5" max="15" step="1">
+            <button id="save-settings">Save</button>
+            <button id="cancel-settings">Cancel</button>
+        </div>
+        <div id="game-ui" class="hidden">
+            <div id="score">Score: <span id="score-value">0</span></div>
+            <canvas id="tetris"></canvas>
+            <div id="instructions">
+                <h2>Instructions:</h2>
+                <p>← → : Move left/right</p>
+                <p>↑ : Rotate</p>
+                <p>↓ : Soft drop</p>
+                <p>Space : Hard drop</p>
+                <p>P : Pause</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/tetris.js"></script>
+</body>
+</html>
