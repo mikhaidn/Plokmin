@@ -13,7 +13,6 @@ Resume: [PDF](DanMikhailResume.pdf)
 
 [(Reddit) Summit 11 Finals Lore for Non-Melee players](https://www.reddit.com/r/SSBM/comments/omxglo/summit_11_finals_lore_for_nonmelee_players/)
 
-[(Test Post) Spotify Web-App](demo/webplayer.html)
 
 [Goldbach Conjecture Research](https://github.com/mikhaidn/SemiprimeCalculations) - if there is a squared integer that is not a squared distance away from a semiprime number (integer with two factors), then Goldbach's Conjecture is false.
 
