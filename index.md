@@ -1,6 +1,14 @@
-<div style="position: absolute; top: 20px; right: 20px; width: 150px; height: 150px;">
+<div id="orbit-container" style="position: fixed; width: 150px; height: 150px; pointer-events: none; z-index: 1000; transform: translate(-50%, -50%);">
 <iframe src="orbits/index.html" width="150" height="150" frameborder="0" scrolling="no"></iframe>
 </div>
+
+<script>
+document.addEventListener('mousemove', (e) => {
+    const container = document.getElementById('orbit-container');
+    container.style.left = e.pageX + 'px';
+    container.style.top = e.pageY + 'px';
+});
+</script>
 
 ## Welcome to my page of miscellaneous writing!
 By: Daniel "Plokmin" Mikhail *(he/him)* 
