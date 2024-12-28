@@ -15,6 +15,8 @@ By: Daniel "Plokmin" Mikhail *(he/him)*
 
 Resume: [PDF](DanMikhailResume.pdf)
 
+[Elgato Stream Deck Interface](https://github.com/mikhaidn/ElGatoDriver) - Developed custom Python HID interface for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
+
 [Orbits!](orbits/index.html) - Mini webGL solar system, two planets and some moons
 
 [Pre-College STEM](stemstuff.html) - An aggregation of STEM resources that a high-schooler may find useful. 
