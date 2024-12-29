@@ -2,51 +2,63 @@
 
 -------------------     ----------------------------
 danmikhail@gmail.com                        mikhaidn.github.io/Plokmin
-Champaign, IL                           +1 217 722 5067
+Boston, MA                                  +1 217 722 5067
 -------------------     ----------------------------
 
-Education 
----------
-
-2020 - 2024
-:   **Masters of Computer Science**; University of Illinois at Urbana-Champaign 
-
-2014 - 2018
-:   **BSc, Computer Science**; Rose-Hulman Institute of Technology *(Terre Haute, IN)*
-    
 Experience
 ---------
+2022 - Present
+: **Software Engineer** at Verily Life Sciences (Alphabet) *(Boston, MA)*
+
+* **Participant System**:
+  - Led refactoring of a core data model and system, improving maintainability through service modularization and third-party integration abstraction
+  - Reduced testing cycle time by 75% through decoupling frontend/backend test suites in Consent System
+  - Authored comprehensive developer guides establishing best practices for service integration
+
+* **Provider Console**:
+  - Established frontend architecture patterns by implementing first React/TypeScript modules, creating documentation that became standard reference for 4+ teams
+  - Designed and implemented modular Backend-for-Frontend (BFF) architecture enabling parallel development across frontend teams
+  - Built reusable UI components following UX specifications, maintaining a11y compliance standards, ensuring aligned quality expectations with Project Management
+
+Technologies: Go, React/TypeScript, GCP, FHIR, Protocol Buffers, gRPC
 
 2018 - 2021
-: **Software Production/Development Engineer** at Yahoo! *(Champaign, IL)*
+: **Software Production Engineer** at Yahoo! *(Champaign, IL)*
+Served as the production point of contact for components of Yahoo!'s DSP advertisement pipeline and tools built primarily on the Hadoop Ecosystem or Amazon Web Service.
 
-Served as the production point of contact for components of Yahoo!'s DSP advertisement pipeline and tools built primarily on the Hadoop Ecosystem or Amazon Web Service. 
+- Communicate blockers in-between developer teams, like new a security requirement (COPPA, GDPR, etc.) or data schema change that was deployed ahead of schedule
+- Formed a high level intuition of the pipeline to catch potential SLA misses early, and pass on tribal knowledge to newer Production Engineers
+- Established a real-time monitoring system using Lambda architecture, providing critical visibility into pipeline health and performance metrics
 
-* Communicate blockers in-between developer teams, like new a security requirement (COPPA, GDPR, etc.) or data schema change that was deployed ahead of schedule.
-* Formed a high level intuition of the pipeline to catch potential SLA misses early, and pass on tribal knowledge to newer Production Engineers.  
-* Transitioned to a developer role in 2020, implemented a web-app that aggregates statuses for multiple lambda-architecture pipelines
+Technologies: Python, Hadoop Ecosystem (Pig, Oozie, Spark), AWS, RedHat clusters
 
-2016 - 2018
-: **Resident Assistant** at Rose-Hulman Institute of Technology *(Terre Haute, IN)*
+### Side Projects
 
-Side Projects
----------
 Details of everything listed below can be found at mikhaidn.github.io/Plokmin
+
+Custom Elgato Stream Deck Controller
+: Developed custom Python HID Controller for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
 
 Open Source Research
 :  Increased the documented search space of two integer sequences (A100570 and A241922) on the OEIS by 6 orders of magnitude by taking advantage of bitmapping, multithreading, and other Python/Math gimmicks
 
 Knowledge Dumps
-: Beginner-friendly guides I've made over the past year, inspired by the FAQs I get
+: Original content created, based on frequently asked questions received over the years
 
     * **Macarons** - A high level guide to making French Macarons
     * **The Unix Shell** - A simplified list of goals for learning the Unix Shell
-    * **STEM College Prep** - A collection of my favorite pre-college STEM resources
+    * **STEM College Prep** - A collection of pre-college STEM resources
+
 
 Skills
 ---------
-* **Web development**: Django(Python), MySQL, JavaScript
-* **Unix Admin**: Networking, Bash Scripting, Data Management
-* **DevOps**: Containers (Docker), CI/CD (Jenkins)
-* **Scientific Computing**: MATLAB, R, SciPy (Python)
-* **Hobbies**: Bouldering, Competitive Smash Bros., Violin, Bar Trivia
+- **Languages**: Go, Python, TypeScript/React, Java, MATLAB, R
+- **Infrastructure**: Docker/Kubernetes, GCP, AWS, CI/CD
+- **Development**: API Design, Distributed Systems, Testing
+- **Domains**: Data Cleaning, Computer Graphics, Scientific Visualization
+
+Education
+---------
+2020 - 2024   **Masters of Computer Science**; University of Illinois at Urbana-Champaign
+
+2014 - 2018  **BSc, Computer Science**; Rose-Hulman Institute of Technology *(Terre Haute, IN)*
