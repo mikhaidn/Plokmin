@@ -13,7 +13,7 @@ document.addEventListener('mousemove', (e) => {
 ## Welcome to my page of miscellaneous writing!
 By: Daniel "Plokmin" Mikhail *(he/him)* 
 
-Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html) [Markdown](DanMikhailResume.md) [DOCX](DanMikhailResume.docx)
+Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html) [Markdown](DanMikhailResume.md) 
 
 [Elgato Stream Deck Interface](https://github.com/mikhaidn/ElGatoDriver) - Developed custom Python HID interface for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
 
