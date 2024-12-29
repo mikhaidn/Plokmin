@@ -10,20 +10,23 @@ Experience
 2022 - Present
 : **Software Engineer** at Verily Life Sciences (Alphabet) *(Boston, MA)*
 
-* **Participant System**:
+Led full-stack development of two core healthcare platform components with feature flag-controlled deployments in a FHIR/GCP ecosystem:
+
+* **Participant System**: Built a scalable internal service enabling Verily's developers to interact with simplified participant interface
   - Led refactoring of a core data model and system, improving maintainability through service modularization and third-party integration abstraction
   - Reduced testing cycle time by 75% through decoupling frontend/backend test suites in Consent System
-  - Authored comprehensive developer guides establishing best practices for service integration
+  - Authored comprehensive developer guides and contract tests establishing best practices for service integration
 
-* **Provider Console**:
-  - Established frontend architecture patterns by implementing first React/TypeScript modules, creating documentation that became standard reference for 4+ teams
-  - Designed and implemented modular Backend-for-Frontend (BFF) architecture enabling parallel development across frontend teams
+* **Provider Console**: Led design and development of a modular frontend dashboard through iterative feedback loops with UX and Product teams
+  - Established frontend architecture patterns by implementing core React/TypeScript components, creating a flagship MFE that became standard reference across 4+ teams
+  - Broke down card implementation into modular Backend-for-Frontend (BFF) architecture enabling parallel development across junior engineers, reducing MVP delivery time by 50%
   - Built reusable UI components following UX specifications, maintaining a11y compliance standards, ensuring aligned quality expectations with Project Management
 
-Technologies: Go, React/TypeScript, GCP, FHIR, Protocol Buffers, gRPC
+Technologies: Go, React/TypeScript, GCP, FHIR, gRPC
 
 2018 - 2021
 : **Software Production Engineer** at Yahoo! *(Champaign, IL)*
+
 Served as the production point of contact for components of Yahoo!'s DSP advertisement pipeline and tools built primarily on the Hadoop Ecosystem or Amazon Web Service.
 
 - Communicate blockers in-between developer teams, like new a security requirement (COPPA, GDPR, etc.) or data schema change that was deployed ahead of schedule
@@ -32,8 +35,8 @@ Served as the production point of contact for components of Yahoo!'s DSP adverti
 
 Technologies: Python, Hadoop Ecosystem (Pig, Oozie, Spark), AWS, RedHat clusters
 
-### Side Projects
-
+Projects
+---------
 Details of everything listed below can be found at mikhaidn.github.io/Plokmin
 
 Custom Elgato Stream Deck Controller
@@ -54,7 +57,7 @@ Skills
 ---------
 - **Languages**: Go, Python, TypeScript/React, Java, MATLAB, R
 - **Infrastructure**: Docker/Kubernetes, GCP, AWS, CI/CD
-- **Development**: API Design, Distributed Systems, Testing
+- **Development**: API Design, Distributed Systems, BDD Testing
 - **Domains**: Data Cleaning, Computer Graphics, Scientific Visualization
 
 Education
