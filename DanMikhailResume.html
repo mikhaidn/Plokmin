@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0069)file:///Users/danmikhail/git/pandoc_resume/resume-manilyn-review.html -->
+<!-- saved from url=(0063)file:///Users/danmikhail/git/pandoc_resume/resume-subtitle.html -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="generator" content="pandoc">
@@ -273,9 +273,9 @@ src: local('Roboto Thin'), local('Roboto-Thin'), url(data:font/woff;base64,d09GR
 html,
 body {
 margin: auto;
-padding-right: 1em;
-padding-left: 1em;
-max-width: 99%;
+
+
+max-width: 70em;
 color: black;
 }
 *:not('#mkdbuttons') {
@@ -370,6 +370,53 @@ h6 {
 color: #777;
 font-size: 14px;
 text-align: center
+}
+
+table {
+width: 100%;
+margin: 1em 0;
+border-collapse: collapse;
+}
+
+td {
+font-size: 16px;
+line-height: 1.4;
+padding: 4px 8px;
+}
+
+td strong { font-size: 18px; }
+td em { font-size: 14px; color: #666; }
+
+td:first-child { text-align: left; padding-left: 0; }
+td:not(:first-child):not(:last-child) { text-align: center; }
+td:last-child { text-align: right; }
+
+tr:first-child td {
+white-space: nowrap;
+font-size: clamp(8px, 2vw, 14px);
+width: 1%;
+}
+tr:first-child td:nth-child(even) {
+padding: 0 4px;
+color: #666;
+}
+tr:first-child td a {
+font-size: inherit;
+}
+
+p, ul { padding-left: 20px; }
+p:has(+ ul) { padding-left: 0; }
+ul li { margin-bottom: 0.5em; }
+ul ul { padding-left: 20px; }
+
+@media print {
+.contact-links {
+font-size: 10px;
+white-space: nowrap;
+}
+.contact-links span {
+margin: 0 0.3em;
+}
 }
 p,
 blockquote,
@@ -855,28 +902,33 @@ display: none
 </head>
 <body>
 <h1 id="daniel-mikhail">Daniel Mikhail</h1>
+<h2 id="software-engineer">Software Engineer</h2>
 <table>
 <tbody>
 <tr class="odd">
-<td>danmikhail@gmail.com</td>
-<td style="text-align: right;">mikhaidn.github.io/Plokmin</td>
-</tr>
-<tr class="even">
-<td>Boston, MA</td>
-<td style="text-align: right;">+1 217 722 5067</td>
+<td style="text-align: left;"><a href="mailto:dan.mikhail@gmail.com">dan.mikhail@gmail.com</a></td>
+<td>|</td>
+<td><a href="https://mikhaidn.github.io/Plokmin">mikhaidn.github.io/Plokmin</a></td>
+<td>|</td>
+<td><a href="https://linkedin.com/in/danmikhail/">linkedin.com/in/danmikhail/</a></td>
+<td>|</td>
+<td>+1 217 722 5067</td>
 </tr>
 </tbody>
 </table>
 <h2 id="experience">Experience</h2>
-<dl>
-<dt>2022 - Present</dt>
-<dd>
-<strong>Software Engineer</strong> at Verily Life Sciences (Alphabet)
-<em>(Boston, MA)</em>
-</dd>
-</dl>
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Verily Life Sciences (Alphabet)</strong>, Software Engineer
+| <em>(Boston, MA)</em></td>
+<td>2022 - Present</td>
+</tr>
+</tbody>
+</table>
 <p>Led full-stack development of two core healthcare platform components
-with feature flag-controlled deployments in a FHIR/GCP ecosystem:</p>
+with feature flag-controlled deployments in a FHIR/GCP ecosystem.
+Technologies include: Go, React/TypeScript, GCP, FHIR, gRPC</p>
 <ul>
 <li><strong>Participant System</strong>: Built a scalable internal
 service enabling Verily’s developers to interact with simplified
@@ -905,30 +957,32 @@ maintaining a11y compliance standards, ensuring aligned quality
 expectations with Project Management</li>
 </ul></li>
 </ul>
-<p>Technologies: Go, React/TypeScript, GCP, FHIR, gRPC</p>
-<dl>
-<dt>2018 - 2021</dt>
-<dd>
-<strong>Software Production Engineer</strong> at Yahoo! <em>(Champaign,
-IL)</em>
-</dd>
-</dl>
-<p>Served as the production point of contact for components of Yahoo!’s
-DSP advertisement pipeline and tools built primarily on the Hadoop
-Ecosystem or Amazon Web Service.</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Verizon Media Group (Yahoo!)</strong>, Software Production
+Engineer | <em>(Champaign, IL)</em></td>
+<td style="text-align: right;">2018 - 2021</td>
+</tr>
+</tbody>
+</table>
+<p>Served as the production point of contact for data pipelines and
+tools built on the Hadoop Ecosystem. Technologies include: Python,
+Hadoop Ecosystem (Pig, Oozie, Spark), AWS, RedHat clusters</p>
 <ul>
-<li>Communicate blockers in-between developer teams, like new a security
-requirement (COPPA, GDPR, etc.) or data schema change that was deployed
-ahead of schedule</li>
+<li>Developed a full-stack monitoring tool for multiple Lambda
+architecture-based streaming pipelines, providing real-time visibility
+into pipeline health</li>
+<li>Escalate urgent feature requests across the pipeline, like new a
+security requirement (COPPA, GDPR, etc.), that was deployed ahead of
+schedule</li>
 <li>Formed a high level intuition of the pipeline to catch potential SLA
 misses early, and pass on tribal knowledge to newer Production
 Engineers</li>
-<li>Established a real-time monitoring system using Lambda architecture,
-providing critical visibility into pipeline health and performance
-metrics</li>
+<li>Refined many operational skills and concepts: Key and group
+management, replication, load balancing, networking, CI/CD, and Linux
+Bash scripting</li>
 </ul>
-<p>Technologies: Python, Hadoop Ecosystem (Pig, Oozie, Spark), AWS,
-RedHat clusters</p>
 <h2 id="projects">Projects</h2>
 <p>Details of everything listed below can be found at
 mikhaidn.github.io/Plokmin</p>
@@ -944,15 +998,17 @@ Increased the documented search space of two integer sequences (A100570
 and A241922) on the OEIS by 6 orders of magnitude by taking advantage of
 bitmapping, multithreading, and other Python/Math gimmicks
 </dd>
-<dt>Knowledge Dumps</dt>
+<dt>Subject Primers</dt>
 <dd>
 <p>Original content created, based on frequently asked questions
 received over the years</p>
 <ul>
-<li><strong>Macarons</strong> - A high level guide to making French
-Macarons</li>
 <li><strong>The Unix Shell</strong> - A simplified list of goals for
 learning the Unix Shell</li>
+<li><strong>Macarons</strong> - A high level guide to making French
+Macarons</li>
+<li><strong>Competitive Smash Bros.</strong> - Created accessible
+esports narratives of ‘Smash Summit 11’ for newcomers</li>
 <li><strong>STEM College Prep</strong> - A collection of pre-college
 STEM resources</li>
 </ul>
