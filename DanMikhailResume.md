@@ -1,17 +1,17 @@
 # Daniel Mikhail
 
 ## Software Engineer
-------------------------------------------------------  -  ---------------------------------------------------------------- - ------------------------------------------------------------------ - ---------------
-[dan.mikhail@gmail.com](mailto:dan.mikhail@gmail.com)   |  [mikhaidn.github.io/Plokmin](https://mikhaidn.github.io/Plokmin) | [linkedin.com/in/danmikhail/](https://linkedin.com/in/danmikhail/) | +1 217 722 5067
-------------------------------------------------------  -  ---------------------------------------------------------------- - ------------------------------------------------------------------ - ---------------
+------------------------------------------------------  -  ---------------------------------------------------------------- - ----------------------------------------------------------------- - ---------------
+[dan.mikhail@gmail.com](mailto:dan.mikhail@gmail.com)   |  [mikhaidn.github.io/Plokmin](https://mikhaidn.github.io/Plokmin) | [linkedin.com/in/danmikhail](https://linkedin.com/in/danmikhail/) | +1 217 722 5067
+------------------------------------------------------  -  ---------------------------------------------------------------- - ----------------------------------------------------------------- - ---------------
 
 
 Experience
 ---------
 
------------------------------------------------------------------------                          --------------
-**Verily Life Sciences (Alphabet)**, Software Engineer | *(Boston, MA)*                          2022 - Present
------------------------------------------------------------------------                          --------------
+---------------------------------------------------------------------                          -------------------
+**Verily Life Sciences (Alphabet)**, Software Engineer | (Boston, MA)                          July 2022 - Present
+---------------------------------------------------------------------                          -------------------
 
 Led full-stack development of two core healthcare platform components with feature flag-controlled deployments in a FHIR/GCP ecosystem. Technologies include: Go, React/TypeScript, GCP, FHIR, gRPC
 
@@ -26,9 +26,9 @@ Led full-stack development of two core healthcare platform components with featu
   - Built reusable UI components following UX specifications, maintaining a11y compliance standards, ensuring aligned quality expectations with Project Management
 
 
-------------------------------------------------------------                                       -----------
-**Verizon Media Group (Yahoo!)**, Software Production Engineer | *(Champaign, IL)*                                       2018 - 2021
-------------------------------------------------------------                                       -----------
+--------------------------------------------------------------------------------                                       ------------------------
+**Verizon Media Group (Yahoo!)**, Software Production Engineer | (Champaign, IL)                                       August 2018 - March 2021
+--------------------------------------------------------------------------------                                       ------------------------
 
 Served as the production point of contact for data pipelines and tools built on the Hadoop Ecosystem. Technologies include: Python, Hadoop Ecosystem (Pig, Oozie, Spark), AWS, RedHat clusters
 
@@ -46,14 +46,17 @@ Custom Elgato Stream Deck Controller
 : Developed custom Python HID Controller for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
 
 Open Source Research
-:  Increased the documented search space of two integer sequences (A100570 and A241922) on the OEIS by 6 orders of magnitude by taking advantage of bitmapping, multithreading, and other Python/Math gimmicks
+:  Increased the documented search space of two integer sequences ([A100570](https://oeis.org/A100570) and [A241922](https://oeis.org/A241922)) on the OEIS by 6 orders of magnitude by taking advantage of bitmapping, multithreading, and other Python/Math gimmicks
+
+Down Payment Calculator
+: A bare-bones static webpage to estimate monthly payments based off variable home and loan parameters
 
 Subject Primers
 : Original content created, based on frequently asked questions received over the years
 
     * **The Unix Shell** - A simplified list of goals for learning the Unix Shell
     * **Macarons** - A high level guide to making French Macarons
-    * **Competitive Smash Bros.** - Created accessible esports narratives of 'Smash Summit 11' for newcomers
+    * **Competitive Smash Bros.** - Documented esports narratives of 'Smash Summit 11' for newcomers
     * **STEM College Prep** - A collection of pre-college STEM resources
 
 
@@ -68,4 +71,4 @@ Education
 ---------
 2020 - 2024   **Masters of Computer Science**; University of Illinois at Urbana-Champaign
 
-2014 - 2018  **BSc, Computer Science**; Rose-Hulman Institute of Technology *(Terre Haute, IN)*
+2014 - 2018  **BSc, Computer Science**; Rose-Hulman Institute of Technology | (Terre Haute, IN)

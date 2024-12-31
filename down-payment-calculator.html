@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Down Payment Calculator</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    </head>
+    <body class="bg-gray-100 min-h-screen p-4">
+        <div id="root"></div>
+        <script type="text/babel">
+        const { useState } = React;
+
+        function DownPaymentCalculator() {
+            const [homePrice, setHomePrice] = useState(1000000);
+            const [apr, setApr] = useState(7.0);
+            const [downPaymentPercentage, setDownPaymentPercentage] = useState(20);
+            const [mortgageYears, setMortgageYears] = useState(30);
+
+            const calculateDownPayment = (percentage) => {
+                return (homePrice * (percentage / 100)).toLocaleString('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                    maximumFractionDigits: 0
+                });
+            };
+
+            const calculateMonthlyMortgage = (percentage) => {
+                const principal = homePrice * (1 - percentage / 100);
+                const interestRate = apr / 100;
+                const monthlyRate = interestRate / 12;
+                const numberOfPayments = mortgageYears * 12;
+
+                const monthlyPayment = principal * 
+                    (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / 
+                    (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
+
+                return monthlyPayment.toLocaleString('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                    maximumFractionDigits: 0
+                });
+            };
+
+            const formatCurrency = (value) => {
+                return value.toLocaleString('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                    maximumFractionDigits: 0
+                });
+            };
+
+            return (
+                <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
+                    <h1 className="text-2xl font-bold mb-6">Down Payment Calculator</h1>
+                    
+                    <div className="space-y-6">
+                        <div className="space-y-4">
+                            <div>
+                                <label className="block text-sm font-medium mb-2">
+                                    Home Price: {formatCurrency(homePrice)}
+                                </label>
+                                <div></div>
+                                <input
+                                    type="range"
+                                    min="100000"
+                                    max="3000000"
+                                    step="10000"
+                                    value={homePrice}
+                                    onChange={(e) => setHomePrice(Number(e.target.value))}
+                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                                />
+                            </div>
+                            <br/>
+                            <div>
+                                <label className="block text-sm font-medium mb-2">
+                                    Down Payment: {downPaymentPercentage}% ({calculateDownPayment(downPaymentPercentage)})
+                                </label>
+                                <div></div>
+                                <input
+                                    type="range"
+                                    min="3.5"
+                                    max="50"
+                                    step="0.5"
+                                    value={downPaymentPercentage}
+                                    onChange={(e) => setDownPaymentPercentage(Number(e.target.value))}
+                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                                />
+                            </div>
+                            <br/>
+                            <div>
+                                <label className="block text-sm font-medium mb-2">
+                                    Annual Interest Rate: {apr}%
+                                </label>
+                                <div></div>
+                                <input
+                                    type="range"
+                                    min="3"
+                                    max="12"
+                                    step="0.1"
+                                    value={apr}
+                                    onChange={(e) => setApr(Number(e.target.value))}
+                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                                />
+
+                            </div>
+                            <br/>
+                            <div>
+                                <label className="block text-sm font-medium mb-2">
+                                    Mortgage Term: {mortgageYears} years
+                                </label>
+                                <div></div>
+                                <input
+                                    type="range"
+                                    min="10"
+                                    max="30"
+                                    step="5"
+                                    value={mortgageYears}
+                                    onChange={(e) => setMortgageYears(Number(e.target.value))}
+                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="space-y-4 bg-gray-50 p-4 rounded-lg">
+                            <div>
+                                <p className="text-sm text-gray-600">Down Payment Amount:</p>
+                                <p className="text-xl font-bold">{calculateDownPayment(downPaymentPercentage)}</p>
+                            </div>
+                            <div>
+                                <p className="text-sm text-gray-600">Loan Amount:</p>
+                                <p className="text-xl font-bold">
+                                    {formatCurrency(homePrice - (homePrice * (downPaymentPercentage / 100)))}
+                                </p>
+                            </div>
+                            <div>
+                                <p className="text-sm text-gray-600">Estimated Monthly Payment ({apr}% APR, {mortgageYears}-year fixed):</p>
+                                <p className="text-xl font-bold">{calculateMonthlyMortgage(downPaymentPercentage)}</p>
+                            </div>
+                        </div>
+
+                        <div className="text-sm text-gray-500">
+                            <p>Notes:</p>
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>3.5% down payment is available for FHA loans</li>
+                                <li>Conventional loans typically require 5-20% down</li>
+                                <li>20% or more down payment avoids Private Mortgage Insurance (PMI)</li>
+                                <li>Monthly payment estimate includes principal and interest only</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<DownPaymentCalculator />, document.getElementById('root'));
+        </script>
+    </body>
+</html>
