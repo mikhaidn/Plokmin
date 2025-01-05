@@ -69,6 +69,6 @@ Skills
 
 Education
 ---------
-2020 - 2024   **Masters of Computer Science**; University of Illinois at Urbana-Champaign
+June 2020 - December 2024   **Masters of Computer Science**; University of Illinois at Urbana-Champaign
 
-2014 - 2018  **BSc, Computer Science**; Rose-Hulman Institute of Technology | (Terre Haute, IN)
+August 2014 - May 2018  **BSc, Computer Science**; Rose-Hulman Institute of Technology | (Terre Haute, IN)
