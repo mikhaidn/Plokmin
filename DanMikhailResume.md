@@ -40,7 +40,7 @@ Served as the production point of contact for data pipelines and tools built on 
 
 Projects
 ---------
-Details of everything listed below can be found at mikhaidn.github.io/Plokmin
+Details of everything listed below can be found at [mikhaidn.github.io/Plokmin](https://mikhaidn.github.io/Plokmin)
 
 Custom Elgato Stream Deck Controller
 : Developed custom Python HID Controller for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
@@ -69,9 +69,10 @@ Skills
 
 Education
 ---------
----------------------------------------------------------------------------                         -------------------------
-**Masters of Computer Science**; University of Illinois at Urbana-Champaign                         June 2020 - December 2024
----------------------------------------------------------------------------                         -------------------------
+---------------------------------------------------------------------------         ------------------------
+**Masters of Computer Science**, University of Illinois at Urbana-Champaign         May 2020 - December 2024
+---------------------------------------------------------------------------         ------------------------
+
 ----------------------------------------------------------------------------------                        ----------------------
-**BSc, Computer Science**; Rose-Hulman Institute of Technology | (Terre Haute, IN)                        August 2014 - May 2018
+**BSc, Computer Science**, Rose-Hulman Institute of Technology | (Terre Haute, IN)                        August 2014 - May 2018
 ----------------------------------------------------------------------------------                        ----------------------
