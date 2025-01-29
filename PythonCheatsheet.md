@@ -33,6 +33,11 @@ print(sorted_words)  # Output: 'hello python world'
 words = "apple cat banana"
 sorted_by_length = ' '.join(sorted(words.split(), key=len))
 print(sorted_by_length)  # Output: 'cat apple banana'
+
+
+pair.sort(reverse=True)
+
+pair.sort(key=lambda i : i.first) # sort w/ 0th index of tuples i.e [(1, 234)]
 ```
 
 
