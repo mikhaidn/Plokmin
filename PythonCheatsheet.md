@@ -38,6 +38,8 @@ print(sorted_by_length)  # Output: 'cat apple banana'
 pair.sort(reverse=True)
 
 pair.sort(key=lambda i : i.first) # sort w/ 0th index of tuples i.e [(1, 234)]
+
+genericlist.index()
 ```
 
 
@@ -132,6 +134,8 @@ for i, (key, value) in enumerate(d.items()):
 ### Dequeu
 
 ```python
+
+from containers import dequeue
 # Creating a deque
 d = deque([1, 2, 3, 4])
 
