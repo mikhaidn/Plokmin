@@ -18,11 +18,13 @@ Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html) [Markdown](Dan
 ### Software:
 1. [Elgato Stream Deck Interface](https://github.com/mikhaidn/ElGatoDriver) - Developed custom Python HID interface for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls.
 
-2. [Orbits!](orbits/index.html) - Mini webGL solar system, two planets and some moons.
+2. [Mini Web App Collection](https://mikhaidn.github.io/PlokminFun/) - Collection of interactive web applications including FreeCell solitaire and a Video Editor.
 
-3. [Down Payment Calculator](down-payment-calculator.html) - A bare-bones static webpage to estimate monthly payments based off variable home and loan parameters.
+3. [Orbits!](orbits/index.html) - Mini webGL solar system, two planets and some moons.
 
-4. [Goldbach Conjecture Research](https://github.com/mikhaidn/SemiprimeCalculations) - if there is a squared integer that is not a squared distance away from a semiprime number (integer with two factors), then Goldbach's Conjecture is false.
+4. [Down Payment Calculator](down-payment-calculator.html) - A bare-bones static webpage to estimate monthly payments based off variable home and loan parameters.
+
+5. [Goldbach Conjecture Research](https://github.com/mikhaidn/SemiprimeCalculations) - if there is a squared integer that is not a squared distance away from a semiprime number (integer with two factors), then Goldbach's Conjecture is false.
     0. [Raw data of semiprime research](https://raw.githubusercontent.com/mikhaidn/SemiprimeCalculations/main/Summary%20of%202%5E28%20results)
     1. [OEIS: Every integer (greater than two) seems to be a squared distance away from a semiprime](https://oeis.org/A241922)
     2. [OEIS: (seemingly fininte) List of numbers that are not the sum of a square and a semiprime](https://oeis.org/A100570)
