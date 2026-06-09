@@ -13,12 +13,12 @@ document.addEventListener('mousemove', (e) => {
 ## Welcome to my page of miscellaneous projects!
 By: Daniel "Plokmin" Mikhail *(he/him)* 
 
-Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html) [Markdown](DanMikhailResume.md) 
+Resume: [PDF](DanMikhailResume.pdf) [Markdown](DanMikhailResume.md) 
 
 ### Software:
 1. [Elgato Stream Deck Interface](https://github.com/mikhaidn/ElGatoDriver) - Developed custom Python HID interface for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls.
 
-2. [Plokmin Fun (Mini Web App Collection)](https://mikhaidn.github.io/PlokminFun/) - Collection of interactive web applications including FreeCell solitaire and a Video Editor.
+2. [Plokmin Fun (Mini Web App Collection)](https://mikhaidn.github.io/PlokminFun/) - Collection of interactive web applications including [FreeCell solitaire](https://mikhaidn.github.io/PlokminFun/freecell/) and a [Video Editor](https://mikhaidn.github.io/PlokminFun/light-vod-editor/).
 
 3. [Orbits!](orbits/index.html) - Mini webGL solar system, two planets and some moons.
 
