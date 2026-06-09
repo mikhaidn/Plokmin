@@ -3,8 +3,9 @@
 ## Software Engineer
 ------------------------------------------------------  -  ---------------------------------------------------------------- - ----------------------------------------------------------------- - ---------------
 [dan.mikhail@gmail.com](mailto:dan.mikhail@gmail.com)   |  [mikhaidn.github.io/Plokmin](https://mikhaidn.github.io/Plokmin) | [linkedin.com/in/danmikhail](https://linkedin.com/in/danmikhail/) | +1 217 722 5067
-------------------------------------------------------  -  ---------------------------------------------------------------- - ----------------------------------------------------------------- - ---------------
+------------------------------------------------------  -  ---------------------------------------------------------------- - ---------------
 
+Software engineer with 6+ years across platform services, data pipelines, and full-stack systems. I build internal tooling and Go service patterns that make platform work tractable — most recently on healthcare platform infrastructure at Verily.
 
 Experience
 ---------
@@ -13,66 +14,44 @@ Experience
 **Verily Life Sciences (Alphabet)**, Software Engineer | (Boston, MA)                          July 2022 - Present
 ---------------------------------------------------------------------                          -------------------
 
-Led full-stack development of two core healthcare platform components with feature flag-controlled deployments in a FHIR/GCP ecosystem. Technologies include: Go, React/TypeScript, GCP, FHIR, gRPC
+* **Cross-System Technical Leadership**
+  - **Lead engineer for Disenrollment** — gathered and reconciled requirements from clinical experts, upstream UX/PM, and 4+ senior/staff engineers across adjacent teams, translating them into the core implementation and the data contracts between them
+  - **Made the call on CloseAccount's implementation pattern** — single backend request triggering distributed side effects rather than frontend fanout; scaffolded for 3-engineer parallel development with a code path reusable for backfills
+  - **Co-Lead of the team's mentorship program**, coordinating ~20 active mentor/mentee pairings, designing lesson plans and program length
 
-* **Participant System**: Built a scalable internal service enabling Verily's developers to interact with simplified participant interface
-  - Led refactoring of a core data model and system, improving maintainability through service modularization and third-party integration abstraction
-  - Reduced testing cycle time by 75% through decoupling frontend/backend test suites in Consent System
+* **Platform Tooling & Developer Experience**
+  - Designed a reusable backfill framework with injection points for provenance, scoped rate limiting (only on cascading non-provenance writes), and pagination/logging — reduces dev time and error surface; runs 2–3 backfills/month, ~1,000 patients per run, **emergency rollouts in under 3 days**
+  - Built a multithreaded FHIR wrapper handling rate limiting, safe pagination, and core resource extraction from bundles — enables **high-confidence backfills** against queries with unpredictable size and rate constraints
   - Authored comprehensive developer guides and contract tests establishing best practices for service integration
 
-* **Provider Console**: Led design and development of a modular frontend dashboard through iterative feedback loops with UX and Product teams
-  - Established frontend architecture patterns by implementing core React/TypeScript components, creating a flagship MFE that became standard reference across 4+ teams
-  - Broke down card implementation into modular Backend-for-Frontend (BFF) architecture enabling parallel development across junior engineers, reducing MVP delivery time by 50%
-  - Built reusable UI components following UX specifications, maintaining a11y compliance standards, ensuring aligned quality expectations with Project Management
+* **Participant System**
+  - Designed the **"participant attribute" pattern** after surfacing that downstream teams kept needing data shapes the core model couldn't serve — a foreign-key layer (FHIR Basic resources) that lets each consumer request what they need without core-model changes; decoupled cross-team velocity from data-model decisions
+  - Led refactoring of a core data model and system, improving maintainability through service modularization and third-party integration abstraction
+  - Reduced testing cycle time by **75%** through decoupling frontend/backend test suites in Consent System
+
+* **Provider Console**
+  - Established frontend architecture patterns by implementing core React/TypeScript components, creating a flagship MFE that became **standard reference across 4+ teams**
+  - Broke down card implementation into modular Backend-for-Frontend (BFF) architecture enabling parallel development across junior engineers, reducing MVP delivery time by **50%**
 
 
 --------------------------------------------------------------------------------                                       ------------------------
 **Verizon Media Group (Yahoo!)**, Software Production Engineer | (Champaign, IL)                                       August 2018 - March 2021
 --------------------------------------------------------------------------------                                       ------------------------
 
-Served as the production point of contact for data pipelines and tools built on the Hadoop Ecosystem. Technologies include: Python, Hadoop Ecosystem (Pig, Oozie, Spark), AWS, RedHat clusters
+Production point of contact for data pipelines and tools on the on-prem Hadoop ecosystem (Pig, Oozie, Spark) on AWS and RedHat clusters.
 
-- Developed a full-stack monitoring tool for multiple Lambda architecture-based streaming pipelines, providing real-time visibility into pipeline health
-- Escalate urgent feature requests across the pipeline, like new a security requirement (COPPA, GDPR, etc.), that was deployed ahead of schedule
-- Formed a high level intuition of the pipeline to catch potential SLA misses early, and pass on tribal knowledge to newer Production Engineers
-- Refined many operational skills and concepts: Key and group management, replication, load balancing, networking, CI/CD, and Linux Bash scripting
-
-
-Projects
----------
-Details of everything listed below can be found at [mikhaidn.github.io/Plokmin](https://mikhaidn.github.io/Plokmin)
-
-Custom Elgato Stream Deck Controller
-: Developed custom Python HID Controller for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls
-
-Open Source Research
-:  Increased the documented search space of two integer sequences ([A100570](https://oeis.org/A100570) and [A241922](https://oeis.org/A241922)) on the OEIS by 6 orders of magnitude by taking advantage of bitmapping, multithreading, and other Python/Math gimmicks
-
-Down Payment Calculator
-: A bare-bones static webpage to estimate monthly payments based off variable home and loan parameters
-
-Subject Primers
-: Original content created, based on frequently asked questions received over the years
-
-    * **The Unix Shell** - A simplified list of goals for learning the Unix Shell
-    * **Macarons** - A high level guide to making French Macarons
-    * **Competitive Smash Bros.** - Documented esports narratives of 'Smash Summit 11' for newcomers
-    * **STEM College Prep** - A collection of pre-college STEM resources
+- Developed a full-stack monitoring tool for multiple Lambda-architecture streaming pipelines, providing real-time pipeline health visibility
+- Escalated urgent feature requests across the pipeline, like new security requirements (COPPA, GDPR, etc.), deployed ahead of schedule; coordinated Spectre/Meltdown patching across on-prem RedHat clusters
+- Formed a high-level intuition of the pipeline to catch potential SLA misses early, and pass on tribal knowledge to newer Production Engineers
+- Hands-on with key and group management, replication, load balancing, networking, CI/CD, and Linux Bash scripting
 
 
 Skills
 ---------
-- **Languages**: Go, Python, TypeScript/React, Java, MATLAB, R
-- **Infrastructure**: Docker/Kubernetes, GCP, AWS, CI/CD
-- **Development**: API Design, Distributed Systems, BDD Testing
-- **Domains**: Data Cleaning, Computer Graphics, Scientific Visualization
+- **Languages & infra**: Go, Python, TypeScript/React, Java · Docker/Kubernetes, GCP, AWS, CI/CD
+- **Development**: API Design, Distributed Systems, Developer Tooling, Dependency Injection · **Domains**: Platform/Infra, FHIR
 
 Education
 ---------
----------------------------------------------------------------------------         ------------------------
-**Masters of Computer Science**, University of Illinois at Urbana-Champaign         May 2020 - December 2024
----------------------------------------------------------------------------         ------------------------
-
-----------------------------------------------------------------------------------                        ----------------------
-**BSc, Computer Science**, Rose-Hulman Institute of Technology | (Terre Haute, IN)                        August 2014 - May 2018
-----------------------------------------------------------------------------------                        ----------------------
+- **Masters of Computer Science**, University of Illinois at Urbana-Champaign — December 2024 (finished while at Verily)
+- **BSc, Computer Science**, Rose-Hulman Institute of Technology (Terre Haute, IN) — May 2018

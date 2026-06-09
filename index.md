@@ -18,7 +18,7 @@ Resume: [PDF](DanMikhailResume.pdf) [HTML](DanMikhailResume.html) [Markdown](Dan
 ### Software:
 1. [Elgato Stream Deck Interface](https://github.com/mikhaidn/ElGatoDriver) - Developed custom Python HID interface for Stream Deck hardware with cross-platform (MacOS, Windows) audio controls.
 
-2. [Mini Web App Collection](https://mikhaidn.github.io/PlokminFun/) - Collection of interactive web applications including FreeCell solitaire and a Video Editor.
+2. [Plokmin Fun (Mini Web App Collection)](https://mikhaidn.github.io/PlokminFun/) - Collection of interactive web applications including FreeCell solitaire and a Video Editor.
 
 3. [Orbits!](orbits/index.html) - Mini webGL solar system, two planets and some moons.
 
